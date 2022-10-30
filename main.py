@@ -79,7 +79,6 @@ def game():
         count += 1
         x, y = userInput(user)
         field[x][y] = user
-        print(win(field))
         if win(field):
             printField()
             print(f'Выграл игрок {user}')
